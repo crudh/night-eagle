@@ -1,0 +1,27 @@
+{
+  "name": "night-eagle",
+  "displayName": "Night Eagle",
+  "description": "A VS Code theme based on Night Owl by Sarah Drasner.",
+  "version": "0.0.1",
+  "publisher": "crudh",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crudh/night-eagle"
+  },
+  "engines": {
+    "vscode": "^1.141.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Night Eagle",
+        "uiTheme": "vs-dark",
+        "path": "./themes/night-eagle-color-theme.json"
+      }
+    ]
+  }
+}
