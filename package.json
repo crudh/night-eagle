@@ -9,6 +9,9 @@
     "type": "git",
     "url": "https://github.com/crudh/night-eagle"
   },
+  "scripts": {
+    "format": "prettier --write ."
+  },
   "engines": {
     "vscode": "^1.141.0"
   },
@@ -23,5 +26,9 @@
         "path": "./themes/night-eagle-color-theme.json"
       }
     ]
+  },
+  "packageManager": "pnpm@12.11.2+sha512.25a51652a196785af5f28bda6dfe8dc582ebefa4ac1d180221ce1390231c5fb76637822ea4b6e4633ce74acdcb0a77f725af11bad38177fdeddaee818a955cb9",
+  "devDependencies": {
+    "prettier": "^3.9.10"
   }
 }
