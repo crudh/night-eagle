@@ -1,0 +1,9 @@
+.vscode/**
+node_modules/**
+.gitignore
+.prettierignore
+AGENTS.md
+CLAUDE.md
+pnpm-lock.yaml
+pnpm-workspace.yaml
+*.vsix

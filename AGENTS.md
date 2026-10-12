@@ -27,6 +27,12 @@ Guiding principle: preserve Night Owl's look. When VS Code renames or replaces a
 - Invalid-token rules had background colors; their former background is now the foreground.
 - VS Code's modern editor tab UI ignores `tab.*` colors, which made the active tab indistinguishable (Night Owl issue #348). Fixed by adding `modernEditorTab.activeBackground`, `activeForeground` and `inactiveBackground` with Night Owl's original tab values. Other `modernEditorTab.*` keys (inactive/unfocused foregrounds) are not valid.
 
+## Publishing
+
+- `pnpm package` builds a `.vsix`; `pnpm release` publishes to the Marketplace (publisher `crudh`, needs `pnpm exec vsce login crudh`). Not `pnpm publish`, which targets npm; `"private": true` blocks that. Both pass `--no-dependencies` since pnpm's `node_modules` layout breaks vsce's dependency scan and a theme has no runtime deps.
+- `.vscodeignore` keeps the package to README, CHANGELOG, LICENSE, package.json and the theme.
+- Bump `version` in package.json and add a CHANGELOG.md entry for each release.
+
 ## Conventions
 
 - Package manager is pnpm, pinned via the `packageManager` field (Corepack). Run `pnpm install` first.
