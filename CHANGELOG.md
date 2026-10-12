@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.0
+
+- Added an extension icon.
+- Shortened the extension description.
+
 ## 0.0.1
 
 - Initial release, based on the Night Owl dark theme (with italics).

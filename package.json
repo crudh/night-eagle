@@ -1,8 +1,8 @@
 {
   "name": "night-eagle",
   "displayName": "Night Eagle",
-  "description": "A maintained dark theme for night coding, based on Night Owl by Sarah Drasner.",
-  "version": "0.0.1",
+  "description": "A dark theme for night coding, based on Night Owl by Sarah Drasner.",
+  "version": "1.0.0",
   "publisher": "crudh",
   "private": true,
   "license": "SEE LICENSE IN LICENSE.md",
@@ -36,6 +36,7 @@
   "categories": [
     "Themes"
   ],
+  "icon": "eagle-icon.png",
   "contributes": {
     "themes": [
       {
