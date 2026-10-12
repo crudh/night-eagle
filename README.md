@@ -4,6 +4,8 @@ A dark VS Code theme for late-night coding, based on [Night Owl](https://github.
 
 Night Owl is a well-loved theme, but it is no longer maintained, and newer VS Code releases have started to break parts of it. Night Eagle keeps the familiar Night Owl look and updates it for current versions of VS Code.
 
+<img width="992" height="827" alt="Screenshot 2026-10-12 at 21 05 01" src="https://github.com/user-attachments/assets/ce2659e3-28ab-46c1-88b8-bc34dd9443d2" />
+
 ## What's different from Night Owl
 
 - The active editor tab is highlighted again in VS Code's new tab design.
